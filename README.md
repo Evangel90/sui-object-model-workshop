@@ -135,14 +135,14 @@ Navigate to [`scripts/src/input_objects_exercise.ts`](./scripts/src/input_object
 
 ### Exercise 3: Scavenger Hunting with PTBs
 
-In this exercise, you will try to get the `Bucket USD` coin in Testnet from the vault using a key created by PTBs. The deployed contract is at [`0x25dfcadb5927395b463a426e8d63425d654a6057affc368f4dc176e587f489a5`](https://suiscan.xyz/testnet/object/0x25dfcadb5927395b463a426e8d63425d654a6057affc368f4dc176e587f489a5/contracts).
+In this exercise, you will try to get the `SUI` coin in Testnet from the vault using a key created by PTBs. The deployed contract is at [`0xef97bc41cfa119c78905d8385e89b1ee5ce79b244f79834d44be213366dae105`](https://suiscan.xyz/testnet/object/0xef97bc41cfa119c78905d8385e89b1ee5ce79b244f79834d44be213366dae105/contracts).
 
 Navigate to [`scavenger`](./lessons/scavenger) to read the smart contract code.
 
 You will need to create a PTB to:
 1. Create a key
 2. Set the key code correctly
-3. Use the key to withdraw the `Bucket USD` coin from the vault
-4. Transfer the `Bucket USD` coin to your account
+3. Use the key to withdraw the `SUI` coin from the vault
+4. Transfer the `SUI` coin to your account
 
 Navigate to [`scripts/src/scavenger_hunt_exercise.ts`](./scripts/src/scavenger_hunt_exercise.ts) and complete the exercise.
