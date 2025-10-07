@@ -28,7 +28,7 @@ const suiClient = new SuiClient({ url: rpcUrl });
  *
  * When finished, run the following command in the scripts directory to test your solution:
  *
- * yarn return-objects
+ * pnpm return-objects
  *
  * RESOURCES:
  * - https://sdk.mystenlabs.com/typescript/transaction-building/basics#transactions

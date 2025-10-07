@@ -27,7 +27,7 @@ const suiClient = new SuiClient({ url: rpcUrl });
  *
  * When finished, run the following command in the scripts directory to test your solution:
  *
- * yarn scavenger-hunt
+ * pnpm scavenger-hunt
  *
  * RESOURCES:
  * - https://sdk.mystenlabs.com/typescript/transaction-building/basics#transactions
