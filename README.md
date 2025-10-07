@@ -127,7 +127,7 @@ This usage is straightforward, but tends to leave developers wondering what this
 
 ### Exercise 2: Input Objects - Counter
 
-View the contents [`counter.move`](./lessons/input_objects/counter/sources/counter.move). There is a deployed instance of this package on the Sui blockchain. The address of the package is [`0x8f0b6cbef998d26f03daa8a9e90d17d57bce8d4b45cb90911662a828f903d323`](https://suiscan.xyz/testnet/object/0x8f0b6cbef998d26f03daa8a9e90d17d57bce8d4b45cb90911662a828f903d323/txs) and the counter object is [0x33a950ff57b782bc66f6416bf3fdf7d44de94a84fa823b9b9291f49d4b0270da](https://suiscan.xyz/testnet/object/0x33a950ff57b782bc66f6416bf3fdf7d44de94a84fa823b9b9291f49d4b0270da/fields).
+View the contents [`counter.move`](./lessons/input_objects/counter/sources/counter.move). There is a deployed instance of this package on the Sui blockchain. The address of the package is [`0xb3491c9657444a947c97d7eeccff0d4988b432f8a37e7f9a26fb6ed4fbc3df9a`](https://suiscan.xyz/testnet/object/0xb3491c9657444a947c97d7eeccff0d4988b432f8a37e7f9a26fb6ed4fbc3df9a/txs) and the counter object is [0x8a6f2bc3af32c71a93a35d397fd47c14f67b7aa252002c907df9b172e95c0ec6](https://suiscan.xyz/testnet/object/0x8a6f2bc3af32c71a93a35d397fd47c14f67b7aa252002c907df9b172e95c0ec6/fields).
 
 
 Navigate to [`scripts/src/input_objects_exercise.ts`](./scripts/src/input_objects_exercise.ts) and complete the exercise.
