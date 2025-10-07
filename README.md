@@ -11,6 +11,7 @@ When learning Sui Move, developers are encouraged to use best practices to utili
     - [Exercise 1: Handling Returned Sui NFT](#exercise-1-handling-returned-sui-nft)
   - [Lesson 2: Objects as Input](#lesson-2-objects-as-input)
     - [Exercise 2: Input Objects - Counter](#exercise-2-input-objects---counter)
+  - [Lesson 3: Putting it together](#lesson-3-putting-it-together)
     - [Exercise 3: Scavenger Hunting with PTBs](#exercise-3-scavenger-hunting-with-ptbs)
 
 # Environment Setup
@@ -133,6 +134,8 @@ View the contents [`counter.move`](./lessons/input_objects/counter/sources/count
 Navigate to [`scripts/src/input_objects_exercise.ts`](./scripts/src/input_objects_exercise.ts) and complete the exercise.
 
 
+
+## Lesson 3: Putting it together
 ### Exercise 3: Scavenger Hunting with PTBs
 
 In this exercise, you will try to get the `SUI` coin in Testnet from the vault using a key created by PTBs. The deployed contract is at [`0xef97bc41cfa119c78905d8385e89b1ee5ce79b244f79834d44be213366dae105`](https://suiscan.xyz/testnet/object/0xef97bc41cfa119c78905d8385e89b1ee5ce79b244f79834d44be213366dae105/contracts).
