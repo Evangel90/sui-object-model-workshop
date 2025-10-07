@@ -28,7 +28,7 @@ const suiClient = new SuiClient({ url: rpcUrl });
  *
  * When finished, run the following command in the scripts directory to test your solution:
  *
- * yarn input-objects
+ * pnpm input-objects
  *
  * RESOURCES:
  * - https://sdk.mystenlabs.com/typescript/transaction-building/basics#transactions
@@ -39,7 +39,6 @@ const main = async () => {
    *
    * Create a new Transaction instance from the @mysten/sui/transactions module.
    */
-  const tx = new Transaction();
 
   /**
    * Task 2:
@@ -51,7 +50,6 @@ const main = async () => {
    * Resources:
    * - SplitCoins: https://sdk.mystenlabs.com/typescript/transaction-building/basics
    */
-  const [coin] = tx.splitCoins(tx.gas, [tx.pure.u64(10)]);
 
   /**
    * Task 3:
@@ -66,12 +64,6 @@ const main = async () => {
    * - Object inputs: https://sdk.mystenlabs.com/typescript/transaction-building/basics#object-references
    */
 
-  tx.moveCall({
-    target: ``, // TODO: Add target here
-    arguments: [
-      // TODO: Add arguments here
-    ],
-  });
 
   /**
    * Task 4:
@@ -83,16 +75,7 @@ const main = async () => {
    * Resources:
    * - Observing transaction results: https://sdk.mystenlabs.com/typescript/transaction-building/basics#observing-the-results-of-a-transaction
    */
-  const result = await suiClient.signAndExecuteTransaction({
-    transaction: tx,
-    signer: keypair,
-  });
-  await suiClient.waitForTransaction({
-    digest: result.digest,
-  });
-  console.log(
-    `[Success] view your transaction result at: https://suiscan.xyz/testnet/tx/${result.digest}`
-  );
+  
 };
 
 main();
