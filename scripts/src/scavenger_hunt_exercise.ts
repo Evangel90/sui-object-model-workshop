@@ -38,33 +38,41 @@ const main = async () => {
    *
    * Create a new Transaction instance from the @mysten/sui/transactions module.
    */
-
+  const tx = new Transaction();
 
   /**
    * Task 2:
    *
    * Create a new key using the `key::new` function.
    */
-
+  tx.moveCall({
+    target: `${PACKAGE_ID}::key::new`,
+    typeArguments: [],
+    arguments: [],
+  });
 
   /**
    * Task 3:
    *
    * Set the key code correctly using the `key::set_code` function.
    */
-  
+  tx.moveCall({
+    target: `${PACKAGE_ID}::key::set_code`,
+    typeArguments: [],
+    arguments: [tx.object(VAULT_ID), tx.pure.u64(1504)],
+  });
 
   /**
    * Task 4:
    *
-   * Use the key to withdraw the `Bucket USD` coin from the vault using the `vault::withdraw` function.
+   * Use the key to withdraw the `SUI` coin from the vault using the `vault::withdraw` function.
    */
   
 
   /**
    * Task 5:
    *
-   * Transfer the `Bucket USD` coin to your account.
+   * Transfer the `SUI` coin to your account.
    */
 
 
@@ -83,7 +91,7 @@ const main = async () => {
   /**
    * Task 7: Run the script with the command below and ensure it works!
    * 
-   * pnpm return-objects
+   * pnpm scavenger-hunt
    * 
    * Verify the transaction on the Sui Explorer: https://suiscan.xyz/testnet/home
    */

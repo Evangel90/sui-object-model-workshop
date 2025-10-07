@@ -80,7 +80,7 @@ const main = async () => {
   /**
    * Task 5: Run the script with the command below and ensure it works!
    * 
-   * pnpm return-objects
+   * pnpm input-objects
    * 
    * Verify the transaction on the Sui Explorer: https://suiscan.xyz/testnet/home
    */
