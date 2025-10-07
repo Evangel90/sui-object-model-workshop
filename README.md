@@ -81,8 +81,6 @@ This is easy enough to do, but in most cases (when the object doesn't have the [
 
 In this lesson, you learn how to handle returned objects properly.
 
-
-
 ### Exercise 1: Handling Returned Sui NFT
 
 
@@ -92,9 +90,6 @@ The package of the SUIII NFT is at [`0x57e029acbe322c733c1936ccba3642f27d0525c38
 View the contract at [`sui_nft.move`](./lessons/returning_objects/sui_nft/sources/sui_nft.move). Try to mint an NFT to your account and view it at explorer with PTBs.
 
 Navigate to [`scripts/src/return_objects_exercise.ts`](./scripts/src/return_objects_exercise.ts) and complete the exercise.
-
-> Bonus Challenge: Can you deploy the [SUIII NFT package](./lessons/returning_objects/sui_nft) yourself and use different text and images for the NFT?
-> [Install the Sui CLI](https://docs.sui.io/guides/developer/getting-started/sui-install), [Create Deployer Address](https://docs.sui.io/guides/developer/getting-started/get-address), and deposit gas coins from faucet, then use `sui client publish --skip-dependency-verification` to deploy!
 
 ## Lesson 2: Objects as Input
 
