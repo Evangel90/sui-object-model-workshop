@@ -76,6 +76,14 @@ const main = async () => {
    * - Observing transaction results: https://sdk.mystenlabs.com/typescript/transaction-building/basics#observing-the-results-of-a-transaction
    */
   
+
+  /**
+   * Task 5: Run the script with the command below and ensure it works!
+   * 
+   * pnpm return-objects
+   * 
+   * Verify the transaction on the Sui Explorer: https://suiscan.xyz/testnet/home
+   */
 };
 
 main();
