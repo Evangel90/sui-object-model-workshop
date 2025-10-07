@@ -15,7 +15,7 @@ const { secretKey } = decodeSuiPrivateKey(keyPairJson.privateKey);
 const keypair = Ed25519Keypair.fromSecretKey(secretKey);
 const suiAddress = keypair.getPublicKey().toSuiAddress();
 
-const PACKAGE_ID = `0x83feeef5abcb1d5caca48f5e4e2259f8fbbcac88c10d82cc95ed58ff6f0dcd79`;
+const PACKAGE_ID = `0x57e029acbe322c733c1936ccba3642f27d0525c3883cf4e2742053ba2c5490b0`;
 
 const rpcUrl = getFullnodeUrl("testnet");
 const suiClient = new SuiClient({ url: rpcUrl });
@@ -39,7 +39,6 @@ const main = async () => {
    *
    * Create a new Transaction instance from the @mysten/sui/transactions module.
    */
-  const tx = new Transaction();
 
   /**
    * Task 2:
@@ -52,10 +51,6 @@ const main = async () => {
    * HINT: The arguments and typeArguments arguments are optional since this function does not take
    * any arguments or type arguments.
    */
-
-  const nft = tx.moveCall({
-    target: `${PACKAGE_ID}::sui_nft::new`,
-  });
 
   /**
    * Task 3:
@@ -77,16 +72,6 @@ const main = async () => {
    * Print the result to the console.
    */
 
-  const result = await suiClient.signAndExecuteTransaction({
-    transaction: tx,
-    signer: keypair,
-  });
-  await suiClient.waitForTransaction({
-    digest: result.digest,
-  });
-  console.log(
-    `[Success] view your transaction result at: https://suiscan.xyz/testnet/tx/${result.digest}`
-  );
 };
 
 main();
