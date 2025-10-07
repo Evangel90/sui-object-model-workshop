@@ -62,7 +62,6 @@ const main = async () => {
    * HINT: Use `suiAddress`` to transfer the object to your address.
    */
 
-  // TODO: Add transferObjects call here
 
   /**
    * Task 4:
