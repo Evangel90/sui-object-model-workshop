@@ -85,7 +85,7 @@ In this lesson, you learn how to handle returned objects properly.
 ### Exercise 1: Handling Returned Sui NFT
 
 
-The package of the SUIII NFT is at [`0x83feeef5abcb1d5caca48f5e4e2259f8fbbcac88c10d82cc95ed58ff6f0dcd79`](https://suiscan.xyz/testnet/object/0x83feeef5abcb1d5caca48f5e4e2259f8fbbcac88c10d82cc95ed58ff6f0dcd79/tx-blocks) and the NFT object type is [`0x83feeef5abcb1d5caca48f5e4e2259f8fbbcac88c10d82cc95ed58ff6f0dcd79::sui_nft::SuiNFT`](https://suiscan.xyz/testnet/collection/0x83feeef5abcb1d5caca48f5e4e2259f8fbbcac88c10d82cc95ed58ff6f0dcd79::sui_nft::SuiNFT/items).
+The package of the SUIII NFT is at [`0x57e029acbe322c733c1936ccba3642f27d0525c3883cf4e2742053ba2c5490b0`](https://suiscan.xyz/testnet/object/0x57e029acbe322c733c1936ccba3642f27d0525c3883cf4e2742053ba2c5490b0/tx-blocks) and the NFT object type is [`0x57e029acbe322c733c1936ccba3642f27d0525c3883cf4e2742053ba2c5490b0::sui_nft::SuiNFT`](https://suiscan.xyz/testnet/collection/0x57e029acbe322c733c1936ccba3642f27d0525c3883cf4e2742053ba2c5490b0::sui_nft::SuiNFT/items).
 
 
 View the contract at [`sui_nft.move`](./lessons/returning_objects/sui_nft/sources/sui_nft.move). Try to mint an NFT to your account and view it at explorer with PTBs.
